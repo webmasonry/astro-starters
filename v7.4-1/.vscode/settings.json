@@ -1,0 +1,154 @@
+{
+  "[astro]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "chat.checkpoints.enabled": true,
+  "chat.checkpoints.showFileChanges": true,
+  "chat.disableAIFeatures": true,
+  "chat.editing.autoAcceptDelay": 0,
+  "chat.editing.explainChanges.enabled": true,
+  "chat.editing.openChangedFileInDiffEditor": true,
+  "chat.editing.revealNextChangeOnResolve": true,
+  "chat.tools.compressOutput.enabled": true,
+  "chat.tools.confirmationCarousel.enabled": true,
+  "chat.tools.todos.showWidget": true,
+  "chat.viewSessions.orientation": "stacked",
+  "claudeCode.hideOnboarding": true,
+  "claudeCode.preferredLocation": "sidebar",
+  "claudeCode.useTerminal": true,
+  "css.lint.unknownAtRules": "ignore",
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports.ts": "explicit",
+    "source.biome": "explicit",
+    "source.fixAll": "never",
+    "source.fixAll.biome": "explicit",
+    "source.fixAll.prettier": "never",
+    "source.fixAll.sortJSON": "never",
+    "source.fixAll.ts": "never",
+    "source.organizeImports": "never",
+    "source.organizeImports.biome": "explicit",
+    "source.organizeLinkDefinitions": "never",
+    "source.removeUnused.ts": "never",
+    "source.removeUnusedImports": "never",
+    "source.sort.json": "never",
+    "source.sortImports": "never"
+  },
+  "editor.colorDecorators": true,
+  "editor.colorDecoratorsActivatedOn": "hover",
+  "editor.colorDecoratorsLimit": 500,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnType": false,
+  "editor.insertSpaces": true,
+  "editor.lightbulb.enabled": "onCode",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "emmet.includeLanguages": {
+    "astro": "html",
+    "svelte": "html",
+    "vue": "html"
+  },
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "figma.autocompleteBlocks": true,
+  "files.associations": {
+    "**/i3/config": "i3",
+    "**/i3blocks/config": "i3",
+    "**/i3status/config": "i3"
+  },
+  "files.watcherExclude": {
+    "**/.cache/**": true,
+    "**/.cargo/**": true,
+    "**/.config/Code/**": true,
+    "**/.config/google-chrome/**": true,
+    "**/.local/**": true,
+    "**/.mozilla/**": true,
+    "**/.npm/**": true,
+    "**/.nvm/**": true,
+    "**/.rustup/**": true,
+    "**/.vscode/extensions/**": true
+  },
+  "js/ts.autoClosingTags.enabled": true,
+  "js/ts.format.enabled": true,
+  "js/ts.implementationsCodeLens.enabled": false,
+  "js/ts.implementationsCodeLens.showOnAllClassMethods": false,
+  "js/ts.inlayHints.enumMemberValues.enabled": false,
+  "js/ts.inlayHints.functionLikeReturnTypes.enabled": false,
+  "js/ts.inlayHints.parameterNames.enabled": "none",
+  "js/ts.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  "js/ts.inlayHints.parameterTypes.enabled": false,
+  "js/ts.inlayHints.propertyDeclarationTypes.enabled": false,
+  "js/ts.inlayHints.variableTypes.enabled": false,
+  "js/ts.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  "js/ts.suggest.autoImports": true,
+  "js/ts.suggest.classMemberSnippets.enabled": true,
+  "js/ts.suggest.enabled": true,
+  "js/ts.suggest.jsdoc.enabled": true,
+  "js/ts.suggest.jsdoc.generateReturns": true,
+  "js/ts.suggestionActions.enabled": true,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnPaste.enabled": true,
+  "js/ts.validate.enabled": true,
+  "json.schemaDownload.enable": true,
+  "json.schemaDownload.trustedDomains": {
+    "https://biomejs.dev": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true
+  },
+  "search.exclude": {
+    "**/.cache": true,
+    "**/.local": true,
+    "**/.npm": true,
+    "**/.nvm": true,
+    "**/.rustup": true
+  },
+  "tailwindCSS.colorDecorators": true,
+  "window.density.layout": "compact",
+  "window.zoomLevel": 1.2,
+  "workbench.activityBar.compact": true,
+  "workbench.activityBar.location": "bottom",
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.panel.showLabels": false,
+  "workbench.settings.useSplitJSON": false
+}
